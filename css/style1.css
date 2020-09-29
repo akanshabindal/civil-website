@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: peachpuff;
+}
+
+.text {
+    font-size: 20px;
+    text-justify: newspaper;
+    margin: 50px;
+}
+
+header {
+    background-size: 100vh;
+    background-position: center;
+}
+
+.image {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    position: absolute;
+    top: 50%;
+    bottom: 30%;
+    transform: translate(70%, -50%);
+    width: 30%
+}
+
+.image1 img {
+    position: absolute;
+    top: 50%;
+    bottom: 30%;
+    transform: translate(170%, -50%);
+    width: 30%
+}
